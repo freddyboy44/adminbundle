@@ -1,0 +1,27 @@
+{
+    "name": "magict/adminbundle",
+    "type": "symfony-bundle",
+    "description": "magicT AdminBundle",
+    "keywords": ["magict adminbundle"],
+    "homepage": "https://www.magict.be",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frederik Boi",
+            "email": "frederik@magict.be"
+        },
+        {
+            "name": "Mattias Van Cauwenberghe",
+            "email": "mattias@magict.be"
+        }
+    ],
+    "require": {
+        "friendsofsymfony/user-bundle": "~2.0@dev",
+        "symfony/assetic-bundle": "^2.8"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": { "magicT\\AdminBundle\\": "" }
+    }
+}
